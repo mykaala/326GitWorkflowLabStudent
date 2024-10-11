@@ -7,9 +7,7 @@ function calculateSquareRoot(value) {
 
 // TODO: Implement square function
 function calculateSquare(value) {
-    // Hint: Use exponentiation
-    // return the square root of the value
-
+    return value * value;
 }
 
 // TODO: FIX reciprocal function
@@ -32,7 +30,6 @@ function naturalLog(value) {
 // TODO: Implement sine function
 function sine(value) {
     return Math.sin(value);
-    // return the sine of the value
 }
 
 // TODO: Implement cosine function
