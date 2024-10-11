@@ -40,7 +40,7 @@ ensuring the production branch is reliably functional.
 - [ ] Implement square root function
 - [ ] Implement square function
 - [ ] Add keyboard support for number input
-- [ ] Improve the design (CSS styling)
+- [x] Improve the design (CSS styling)
 - [ ] Fix reciprocal function
 - [ ] Implement sine function
 - [ ] Implement cosine function
