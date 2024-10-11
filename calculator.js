@@ -2,8 +2,7 @@
 
 // TODO: Fix the square root function not displaying
 function calculateSquareRoot(value) {
-    
-    // return the square root of the value
+    return (Math.sqrt(value));
 }
 
 // TODO: Implement square function
@@ -12,11 +11,15 @@ function calculateSquare(value) {
 }
 
 // TODO: FIX reciprocal function
+
 function calculateReciprocal() {
     // Hint: Reciprocal is 1/x
     // return the square root of the value
-    return 1* value;
-
+    let value = document.getElementById("display");
+    if (value === 0) {
+        throw new Error("Can't divide by zero");
+    }
+    value = 1/value;
 }
 
 // TODO: Implement natural log function
@@ -25,8 +28,8 @@ function naturalLog(value) {
 }
 
 // TODO: Implement sine function
-function sine(value) {q
-    // return the sine of the value
+function sine(value) {
+    return Math.sin(value);
 }
 
 // TODO: Implement cosine function
