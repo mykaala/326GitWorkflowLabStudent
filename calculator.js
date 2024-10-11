@@ -17,8 +17,11 @@ function calculateSquare(value) {
 function calculateReciprocal() {
     // Hint: Reciprocal is 1/x
     // return the square root of the value
-    return 1* value;
-
+    let value = document.getElementById("display");
+    if (value === 0) {
+        throw new Error("Can't divide by zero");
+    }
+    value = 1/value;
 }
 
 // TODO: Implement natural log function
