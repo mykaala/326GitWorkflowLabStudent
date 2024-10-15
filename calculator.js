@@ -39,7 +39,7 @@ function cosine(value) {
 // TODO: Implement tangent function
 function tangent(value) {
     // return the tangent of the value
-    return Math.tan(value)
+    return Math.tan(value);
 }
 
 
