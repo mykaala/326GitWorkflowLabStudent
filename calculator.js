@@ -45,9 +45,6 @@ function tangent(value) {
     return Math.tan(value);
 }
 
-
-
-
 module.exports = {
     calculateSquareRoot,
     calculateSquare,
