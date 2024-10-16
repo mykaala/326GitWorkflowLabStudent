@@ -24,6 +24,7 @@ function calculateReciprocal() {
 
 // TODO: Implement natural log function
 function naturalLog(value) {
+    return Math.log(value);
     // return the natural log of the value
 }
 
