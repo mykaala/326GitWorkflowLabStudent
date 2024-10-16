@@ -39,7 +39,7 @@ ensuring the production branch is reliably functional.
 
 - [x] Implement square root function
 - [x] Implement square function
-- [ ] Add keyboard support for number input
+- [x] Add keyboard support for number input
 - [x] Improve the design (CSS styling)
 - [x] Fix reciprocal function
 - [x] Implement sine function
